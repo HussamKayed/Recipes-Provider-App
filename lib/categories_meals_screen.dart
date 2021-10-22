@@ -14,7 +14,7 @@ class CategoriesMealsScreen extends StatelessWidget {
     final categoryId = routesArguments["id"];
     final categoryTitle = routesArguments["title"];
     return Scaffold(
-        body: Center(child: Text("Recipe")),
+        body: Center(child: Text("Recipes")),
         appBar: AppBar(
           title: Text("${categoryTitle}"),
         ));
