@@ -22,7 +22,7 @@ class CategoryItem extends StatelessWidget {
         selectCategory(context);
       },
       child: Container(
-        padding: EdgeInsets.all(15),
+        padding: const EdgeInsets.all(15),
         child: Text(title, style: Theme.of(context).textTheme.headline6),
         decoration: BoxDecoration(
             gradient: LinearGradient(
